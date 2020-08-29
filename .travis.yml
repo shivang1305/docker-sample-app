@@ -15,8 +15,8 @@ deploy:
   secret_access_key:
     secure: "$SECRET_ACCESS_KEY"
   region: "us-east-2"
-  app: "docker-react-app"
-  env: "docker-react-app-env"
+  app: "docker-sample-app"
+  env: "DockerSampleApp-env"
   bucket_name: "elasticbeanstalk-us-east-2-841160614926"
   bucket_path: "docker-react-app"
   on:
